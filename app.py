@@ -10,7 +10,7 @@ data = df.to_dict(orient="records")
 app = Flask(__name__)
 
 # API key for auth
-API_KEY = "your-secret-token"  # Replace with a secure value or use env vars
+API_KEY = "72D3GUc3niGzxKZ8HZMYVEfPdodrIj"  # Replace with a secure value or use env vars
 
 # Rate limiting: 100 requests/hour per IP
 limiter = Limiter(
