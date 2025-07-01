@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, abort
 import pandas as pd
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from dotenv import load_dotenv
 
 # Load Excel data once on startup
 df = pd.read_excel("data.xlsx")
